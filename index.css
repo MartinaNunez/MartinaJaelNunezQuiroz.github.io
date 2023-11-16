@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #E4B7FF;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+header {
+    background-color: #FF5ACF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #000;
+}
+
+header img {
+    display: block;
+    margin: 20px auto;
+}
+
+#datosPersonales,
+#educacion,
+#experienciaLaboral,
+#conocimientos {
+    background-color: #b3e0ff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 70%; /* Ajusta el ancho según sea necesario */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #E4B7FF;
+    margin-top: auto; /* Empuja el pie de página hacia la parte inferior */
+}
+
